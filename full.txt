@@ -1,0 +1,2047 @@
+1.home.html
+
+<html>
+<head>
+</head>
+<frameset rows="20%,*" >
+<frame name="frame1" src="frame1.html"></frame>
+<frameset cols="25%,25%,25%,25%">
+<frame name="frame2" src="frame2.html"></frame>
+<frame name="frame3" src="frame3.html"></frame>
+<frame name="frame4" src="frame4.html"></frame>
+<frame name="frame5" src="frame5.html"></frame>
+</frameset>
+</frameset>
+</html>
+
+2.frame1.html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Historical Recipes</title>
+    <style>
+        .header {
+            background-color: MediumSeaGreen; /* A historical yellow color */
+            text-align: center;
+            padding: 20px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            position: relative;
+        }
+        .header h1 {
+            margin: 0 20px;
+            font-size: 2.5em;
+            color: #4a4a4a; /* Dark grey for contrast */
+            font-weight: bold;
+            text-transform: uppercase;
+        }
+        .header img {
+            height: 80px;
+            width: 80px;
+            position: absolute;
+            top: 50%;
+            transform: translateY(-50%);
+        }
+        .header img.left {
+            left: 20px;
+        }
+        .header img.right {
+            right: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <img src="left.jpg" alt="Left Image" class="left">
+        <h1>Historical Recipes</h1>
+        <img src="right.jpg" alt="Right Image" class="right">
+    </div>
+</body>
+</html>
+
+
+
+
+3.frame2.html
+<html>
+<head>
+</head>
+<body>
+<h2>ANCIENT RECIPES </h2>
+<br>
+<br>
+<img src="soma.jpg" alt="error" width="300" height="100">
+<a href="soma.html" target="display.html">soma</a>
+<br>
+<img src="ksheerannam.jpg" alt="error" width="300" height="100">
+<a href="ksheer.html" target="display.html">Ksheerannam</a>
+<br>
+<img src="barley.jpg" alt="error" width="300" height="100">
+<a href="barley.html" target="display.html" >barley gruel</a>
+<br>
+<img src="panakam.jpg" alt="error" width="300" height="100">
+<a href="panakam.html" target="display.html">panakam</a>
+</body>
+</html>
+
+
+
+
+
+4.frame3.html
+
+<html>
+<head>
+</head>
+<body>
+<h4>MEDIEVAL INDIA (mugual era)RECIPES </h4>
+<br>
+<br>
+<img src="nihari.jpg" alt="error" width="300" height="100">
+<a href="nihari.html" target="display.html">Nihari</a>
+<br>
+<img src="yakhni.jpg" alt="error" width="300" height="100">
+<a href="yakhni.html" target="display.html">Yakhni pulao</a>
+<br>
+<img src="shahi.jpg" alt="error" width="300" height="100">
+<a href="shahi.html" target="display.html">Shahi tukda</a>
+<br>
+<img src="biryani.jpg" alt="error" width="300" height="100">
+<a href="biryani.html" target="display.html">Biryani</a>
+</body>
+</html>
+
+5.frame4.html
+
+<html>
+<head>
+</head>
+<body>
+<h4>COLONIAL INDIA(British Raj)</h4>
+<br>
+<br>
+<img src="soup.jpg" alt="error" width="300" height="100">
+<a href="soup.html" target="display.html">Mulligatawny soup</a>
+<br>
+<img src="rail.jpg" alt="error" width="300" height="100">
+<a href="rail.html" target="display.html">Railway mutton curry</a>
+<br>
+<img src="tea.jpg" alt="error" width="300" height="100">
+<a href="tea.html" target="display.html">Darjeeling tea</a>
+<br>
+<img src="pork.jpg" alt="error" width="300" height="100">
+<a href="pork.html" target="display.html">pork sorpotel</a>
+</body>
+</html>
+
+
+
+                                                                                                                                                                                           
+6.frame5.html
+
+<html>
+<head>
+</head>
+<body>
+<h3>REGIONAL HISTORICAL RECIPES</h3>
+<br>
+<br>
+<img src="Aviyal.jpg" alt="error" width="300" height="100">
+<a href="aviyal.html" target="display.html">aviyal</a>
+<br>
+<img src="patra.jpg" alt="error" width="300" height="100">
+<a href="patra.html" target="display.html">patrani machhi</a>
+<br>
+<img src="poha.jpg" alt="error" width="300" height="100">
+<a href="poha.html" target="display.html">poha</a>
+<br>
+<img src="poli.jpg" alt="error" width="300" height="100">
+<a href="poli.html" target="display.html">puran poli</a>
+</body>
+</html>
+
+
+7.display.html
+
+<html>
+<head>
+
+</head>
+<body>
+</body>
+</html>
+
+8.soma.html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Soma Recipe</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            background-color: #f9f9f9;
+            color: #333;
+            line-height: 1.6;
+        }
+
+        h1 {
+            text-align: center;
+            color: #4a4a4a;
+            text-transform: uppercase;
+            margin-bottom: 20px;
+            border-style:solid;
+        }
+
+        h2 {
+            color: #555;
+            margin-top: 20px;
+            border-style:dotted;
+        }
+
+        p {
+            text-align: justify;
+        }
+
+        ul, ol {
+            margin: 10px 0 20px 20px;
+        }
+
+        a {
+            color: #007BFF;
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        .video-link {
+            text-align: center;
+            margin-top: 30px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Soma Recipe</h1>
+
+    <h2>History</h2>
+    <p>Soma was a ritual drink in ancient India, often mentioned in the Rigveda as a divine beverage. It was consumed during Vedic rituals and believed to grant immortality and divine inspiration to the drinker. Soma is described in the Rigveda as a divine elixir consumed by gods (Devas) and priests. It is associated with vitality, immortality, and a heightened state of awareness.
+Mythology: Soma is also personified as a deity, revered as a god of plants, health, and immortality.
+Rituals: The preparation, consumption, and offering of Soma were central to Vedic rituals. It was believed to bestow energy, inspiration, and spiritual enlightenment.
+Original Ingredients (Speculative)
+The exact composition of Soma is lost to history. Scholars and historians propose various theories:
+
+Plants: Possible candidates include Ephedra, a plant with stimulant properties, and Amanita muscaria, a hallucinogenic mushroom.
+Preparation: Soma was prepared by extracting juice from a plant (or plants), often mixed with water and other substances, then filtered through wool or grass.
+Modern Interpretations
+In contemporary times, Soma's historical recipe has been reimagined or symbolically recreated:
+
+Substitute Plants: Non-intoxicating ingredients like milk, honey, and herbs (e.g., Tulsi or Ashwagandha) are sometimes used.
+Symbolism: Soma is more commonly interpreted as a metaphor for spiritual bliss or divine consciousness, rather than a literal drink.
+Speculative Recipe (Symbolic Version)
+</p>
+
+    <h2>Ingredients</h2>
+    <ul>
+       <li> Milk (1 liter)</li>
+       <li>Honey (2 tablespoons)</li>
+       <li>Ground turmeric (1 teaspoon)</li>
+       <li>Ginger (1 teaspoon, grated)</li>
+       <li>Cardamom (a pinch)</li>
+       <li>Basil leaves (5-6, fresh)</li>
+       <li>Optional: Ashwagandha or other adaptogenic herbs</li>
+   </ul>
+
+    <h2>Procedure</h2>
+    <ol>
+        <li>Heat the milk gently in a saucepan.</li>
+        <li>Add the turmeric, ginger, and cardamom, and stir well.</li>
+        <li>Allow the mixture to simmer for 5–7 minutes.</li>
+        <li>Strain into a cup, add honey, and garnish with basil leaves.</li>
+        <li>Serve warm.</li>
+        <li>This modern version honors the spirit of Soma while keeping it accessible and non-intoxicating.</li>
+    </ol>
+
+    
+        <h2>Making Video</h2>
+        <p><a href="https://youtu.be/TDSb8UFxTY0" target="_blank">Watch the Making of Soma</a></p>
+    
+</body>
+</html>
+
+
+
+9.ksheer.html
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Soma Recipe</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            background-color: #f9f9f9;
+            color: #333;
+            line-height: 1.6;
+        }
+
+        h1 {
+            text-align: center;
+            color: #4a4a4a;
+            text-transform: uppercase;
+            margin-bottom: 20px;
+            border-style:solid;
+        }
+
+        h2 {
+            color: #555;
+            margin-top: 20px;
+            border-style:dotted;
+        }
+
+        p {
+            text-align: justify;
+        }
+
+        ul, ol {
+            margin: 10px 0 20px 20px;
+        }
+
+        a {
+            color: #007BFF;
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        .video-link {
+            text-align: center;
+            margin-top: 30px;
+        }
+    </style>
+</head>
+<body>
+    <h1>ksheerannam Recipe</h1>
+
+    <h2>History</h2>
+    <p>Ksheerannam, often referred to as milk rice or sweet rice pudding, is a traditional Indian dish with deep roots in cultural, 
+religious, and culinary history. This dish is particularly significant in South Indian traditions, 
+where it is commonly prepared as an offering (naivedyam) to deities during rituals and festivals.
+Ksheerannam derives its name from two Sanskrit words: Ksheera (milk) and Annam (rice). Its origins can be traced back to Vedic times when simple rice dishes were integral to daily meals and religious offerings.
+Sweetened milk and rice preparations are mentioned in ancient texts like the Bhagavata Purana and Charaka Samhita, emphasizing their nourishing and auspicious nature.
+Temple Tradition:
+
+Ksheerannam is commonly prepared as prasadam (offering to deities) in temples, particularly in Vaishnavite traditions. It symbolizes purity, prosperity, and the divine connection between food and spirituality.
+Variations of this dish are integral to major temples like Tirupati, where sweet rice dishes like paramannam are offered to Lord Venkateswara.
+    </p>
+
+    <h2>Ingredients</h2>
+    <ul>
+     <li> 1 cup rice (preferably basmati or sona masuri)</li>
+     <li> 3 cups full-fat milk</li>
+     <li> 1 cup water</li>
+     <li> 1/2 cup sugar (adjust to taste)</li>
+     <li> 1/4 cup ghee (clarified butter)</li>
+     <li> 1/4 teaspoon cardamom powder</li>
+     <li> 8-10 cashews</li>
+     <li> 8-10 raisins</li>
+     <li> A pinch of saffron strands (optional)</li>
+   </ul>
+
+    <h2>Procedure</h2>
+    <ol>
+    <li>Cook the Rice:</li>
+    <li>Wash the rice thoroughly and soak it in water for 15-20 minutes.</li>
+<li>In a pan, add the soaked rice, 1 cup of water, and cook it until it's soft and fully cooked. You can also use a pressure cooker to cook the rice for about 2 whistles.</li>
+<li>Prepare the Milk:</li>
+
+<li>In another pan, bring the milk to a boil and simmer it on low heat, stirring occasionally to prevent it from burning. If you prefer a richer texture, you can boil the milk for longer.</li>
+<li>Combine Rice and Milk:</li>
+
+<li>Once the rice is cooked, add it to the boiling milk and mix well.</li>
+<li>Let it simmer on low heat for about 10-15 minutes, so the rice absorbs the milk and becomes soft and creamy.</li>
+<li>Add Sugar and Cardamom:</li>
+
+<li>Add sugar to the rice-milk mixture and stir until it dissolves.</li>
+<li>Sprinkle in cardamom powder and mix it into the ksheerannam for a fragrant flavor.</li>
+<li>Garnish:</li>
+
+<li>In a small pan, heat ghee and fry the cashews and raisins until they turn golden brown.</li>
+<li>Add the fried cashews and raisins to the ksheerannam.</li>
+<li.Optionally, you can add a few saffron strands soaked in warm water to enhance the flavor and color.</li>
+<li>Serve:</li>
+
+<li>Once everything is mixed well, serve the Ksheerannam warm or chilled, as per your preference.</li>
+    </ol>
+
+    
+        <h2>Making Video</h2>
+        <p><a href="https://youtu.be/OcVl6Au9gxw" target="_blank">Watch the Making of ksheerannam</a></p>
+    
+</body>
+</html>
+
+
+
+
+10.barley.html
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Barley Gruel Recipe</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+        h1 {
+            color: #4a4a4a;
+            text-transform: uppercase;
+ border-style:solid;
+        }
+ h2 {
+            color: #555;
+            margin-top: 20px;
+            border-style:dotted;
+}
+        p {
+            line-height: 1.6;
+        }
+    </style>
+</head>
+<body>
+    <h1>Barley Gruel</h1>
+    <h2>History</h2>
+    <p>A nutritious porridge consumed in ancient civilizations as a staple diet.Barley has been cultivated for thousands of years and was one of the first grains to be domesticated in ancient civilizations like Mesopotamia and Egypt. In India, barley gruel is called "Javala" or "Javapathri" and is traditionally consumed during fasting periods or when someone is recovering from illness. The simplicity of the dish, along with its nutritional benefits, made it a staple food in ancient times. It is often used in Ayurvedic practices for its cooling and digestion-enhancing properties.
+
+Barley was considered a “poor man’s food” in ancient times, but over the years, its health benefits have brought it back into the spotlight as a nutrient-dense grain. Barley gruel is easy to make and is commonly used as a home remedy for digestive issues or as a light meal.</p>
+
+    <h2>Ingredients</h2>
+    <ul>
+        <li>1/2 cup barley (whole or broken)</li>
+        <li>4 cups water (or 2 cups water and 2 cups milk for creaminess)</li>
+        <li>1 tablespoon jaggery (optional, for sweetness)</li>
+        <li>1/4 teaspoon ground cardamom or cinnamon (optional, for flavor)</li>
+        <li>A pinch of salt</li>
+        <li>1 tablespoon ghee (optional, for richness)</li>
+        <li>Optional garnish: roasted nuts, dry fruits, or a few saffron strands for added flavor</li>
+    </ul>
+
+    <h2>Procedure</h2>
+    <ol>
+<li>Prepare the Barley:</li>
+
+
+<li>Wash the barley thoroughly to remove any impurities.</li>
+<li>Soak the barley in water for at least 2-3 hours or overnight to help it cook faster.</li>
+<li>Cook the Barley:</li>
+
+<li>In a saucepan, add the soaked barley and 4 cups of water (or 2 cups water and 2 cups milk for a creamy version). Bring the mixture to a boil.</li>
+<li>Once it begins to boil, reduce the heat and let it simmer for 25-30 minutes, stirring occasionally. If the gruel becomes too thick, add more water or milk to reach the desired consistency.</li>
+<li>Add Sweetener and Spices:</li>
+
+<li>If using jaggery, add it to the cooking barley once it’s softened and mix well. You can also add cardamom, cinnamon, or any other spices for flavor. Stir until the jaggery dissolves.</li>
+<li>Finish with Ghee (Optional):</li>
+
+<li>For a richer flavor, you can add a spoonful of ghee once the gruel is ready. This adds a lovely aroma and makes the gruel more filling.
+Serve:</li>
+
+<li>Garnish with roasted nuts or dry fruits (like almonds, cashews, or raisins) for added texture and nutrition. A few saffron strands can also be added for an exotic touch.</li>
+<li>Enjoy:</li>
+
+<li>Serve the barley gruel warm as a comforting breakfast or a light meal. It's an ideal dish for times when you need something soothing or easy to digest.</li>
+       
+    </ol>
+
+    <h2>Making Video</h2>
+    <p><a href="https://youtu.be/y1Bu1yVa-_M" target="_blank">Watch the Making of Barley Gruel</a></p>
+</body>
+</html>
+
+
+
+
+11.panakam.html
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Soma Recipe</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            background-color: #f9f9f9;
+            color: #333;
+            line-height: 1.6;
+        }
+
+        h1 {
+            text-align: center;
+            color: #4a4a4a;
+            text-transform: uppercase;
+            margin-bottom: 20px;
+border-style:solid;
+        }
+
+        h2 {
+            color: #555;
+            margin-top: 20px;
+border-style:dotted;
+        }
+
+        p {
+            text-align: justify;
+        }
+
+        ul, ol {
+            margin: 10px 0 20px 20px;
+        }
+
+        a {
+            color: #007BFF;
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        .video-link {
+            text-align: center;
+            margin-top: 30px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Panakam Recipe</h1>
+
+    <h2>History</h2>
+    <p>
+     Panakam has its roots in ancient Indian traditions and is often associated with religious festivals, especially in Southern India. It is believed to have been a drink offered to Lord Rama during his times in the forest, as it is a simple, natural drink made with ingredients that were easily available. The drink symbolizes the simplicity and purity of the offerings made to the deity. In temples, it is typically distributed as prasadam (holy offering) to devotees during festivals like Sri Rama Navami.</p>
+
+    <h2>Ingredients</h2>
+    <ul>
+        <li> 1/2 cup jaggery (grated or in block form)</li>
+        <li> 1 cup water (room temperature or chilled)</li>
+        <li> 1/4 teaspoon ground black pepper</li>
+        <li> 1/4 teaspoon grated fresh ginger</li>
+        <li> 2-3 cardamom pods (crushed)</li>
+        <li> A pinch of salt (optional)</li>
+        <li>Lemon juice (optional, for added tang)</li>
+    </ul>
+
+    <h2>Procedure</h2>
+    <ol>
+        <li>Prepare the Jaggery:</li>
+
+<li>Grate or chop the jaggery into small pieces. You can use raw jaggery (gur) for an authentic taste, or you can use a jaggery syrup if you want a quicker preparation.</li.
+<li>Dissolve the Jaggery:</li>
+
+<li>In a bowl, add the grated jaggery and pour 1 cup of water over it. Stir the mixture well until the jaggery completely dissolves in the water.</li>
+<li>Add the Flavors:</li>
+
+<li>To the jaggery water, add the ground black pepper, grated ginger, crushed cardamom pods, and a pinch of salt (if using). These ingredients add a spicy-sweet and aromatic flavor to the drink.</li>
+<li>Mix Well:</li>
+
+<li>Stir the drink thoroughly, ensuring that the spices and jaggery are well combined with the water.</li>
+<li>Optional - Add Lemon Juice:</li>
+
+<li>If you prefer a tangy twist, you can add a few drops of lemon juice to the panakam. This is a common variation, though it's optional.</li>
+<li>Chill and Serve:</li>
+
+<li>Panakam is best served chilled. You can refrigerate it for a while before serving or serve it with ice cubes for a refreshing drink.</li>
+
+    </ol>
+
+    
+        <h2>Making Video</h2>
+        <p><a href="https://youtu.be/oTk9MoMP__Q" target="_blank">Watch the Making of panakam</a></p>
+    
+</body>
+</html>
+
+
+
+12.nihari.html
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nihari Recipe</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            background-color: #f9f9f9;
+            color: #333;
+            line-height: 1.6;
+        }
+
+        h1 {
+            text-align: center;
+            color: #4a4a4a;
+            text-transform: uppercase;
+            margin-bottom: 20px;
+            border-style:solid;
+        }
+
+        h2 {
+            color: #555;
+            margin-top: 20px;
+            border-style:dotted;
+        }
+
+        p {
+            text-align: justify;
+        }
+
+        ul, ol {
+            margin: 10px 0 20px 20px;
+        }
+
+        a {
+            color: #007BFF;
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        .video-link {
+            text-align: center;
+            margin-top: 30px;
+        }
+    </style>
+</head>
+<body>
+    <h1>nihari Recipe</h1>
+
+    <h2>History</h2>
+    <p>Nihari is a traditional South Asian dish, believed to have originated in the Mughal kitchens of Old Delhi during the late 18th century. The name "nihari" is derived from the Arabic word "nahar," meaning morning, as it was traditionally eaten as a breakfast dish after Fajr prayers. Nihari was a favorite among royal households and workers alike, prized for its rich, flavorful taste and ability to provide sustained energy for the day. Over time, the dish spread across the Indian subcontinent, gaining popularity in Pakistan and Bangladesh, where it remains a cherished comfort food.
+</p>
+
+    <h2>Ingredients</h2>
+    <ul>
+        <h2>For the Meat:</h2>
+
+<li>1 kg beef shank, lamb, or goat meat (with bones for added flavor)</li>
+<li>4-5 cups water</li>
+<h2>For the Nihari Masala (Spice Mix):</h2>
+<li>1 tbsp fennel seeds</li>
+<li>1 tbsp coriander seeds</li>
+<li>1 tbsp cumin seeds</li>
+<li>1 tsp black peppercorns</li>
+<li>2-3 cloves</li>
+<li>1 small cinnamon stick</li>
+
+
+<li>2-3 green cardamom pods</li>
+<li>1 black cardamom</li>
+<li>1 tsp nutmeg powder</li>
+<li>1 tsp mace powder</li>
+<li>1 tbsp red chili powder</li>
+<li>1 tsp turmeric powder</li>
+<li>1 tsp garam masala powder</li>
+<h2>For the Base:</h2>
+
+<li>1/2 cup ghee (or oil)</li>
+<li>2 medium onions, thinly sliced</li>
+<li>2 tbsp ginger-garlic paste</li>
+<li>1/4 cup whole wheat flour or roasted gram flour (to thicken)</li>
+<li>Salt to taste</li>
+<h2>For Garnish:</h2>
+
+<li>Fresh coriander leaves, chopped</li>
+<li>Ginger juliennes</li>
+<li>Green chilies, sliced</li>
+<li>Lemon wedges</li>
+
+
+    </ul>
+
+    <h2>Procedure</h2>
+    <ol>
+        <h2>Step 1: Prepare the Nihari Masala</h2>
+
+<li>Dry roast fennel seeds, coriander seeds, cumin seeds, peppercorns, cloves, cinnamon, and cardamom pods in a pan until fragrant.</li>
+<li>Grind the roasted spices to a fine powder and mix with the remaining masala ingredients. Set aside.</li>
+<h2>Step 2: Cook the Base</h2>
+
+<li>Heat ghee in a heavy-bottomed pot or pressure cooker.</li>
+<li>Add sliced onions and sauté until golden brown.</li>
+<li>Stir in the ginger-garlic paste and cook for a minute.</li>
+<h2>Step 3: Add Meat and Masala</h2>
+
+<li>Add the meat pieces and cook until lightly browned.</li>
+<li>Sprinkle the prepared Nihari masala and mix well.</li>
+<h2>Step 4: Simmer</h2>
+
+<li>Add water, ensuring the meat is fully submerged. Bring to a boil, then lower the heat to a gentle simmer.</li>
+<li>Cover and cook for 4-6 hours (or pressure cook for 40-60 minutes) until the meat is tender and falling off the bone.</li>
+<h2>Step 5: Thicken the Gravy</h2>
+
+<li>Mix the flour with a small amount of water to form a smooth slurry.</li>
+<li>Gradually add the slurry to the pot, stirring continuously to avoid lumps.</li>
+<li>Let it simmer until the gravy thickens to your desired consistency.</li>
+<h2>Step 6: Garnish and Serve</h2>
+
+<li>Ladle the Nihari into bowls and garnish with fresh coriander, ginger juliennes, and green chilies.</li>
+<li>Serve hot with naan, parathas, or steamed rice, along with lemon wedges.</li>
+<h2>Enjoy the royal flavors of this slow-cooked delicacy!</h2>
+    </ol>
+
+    
+        <h2>Making Video</h2>
+        <p><a href="https://youtu.be/oSYjbaHYwSQ" target="_blank">Watch the Making of nihari</a></p>
+    
+</body>
+</html>
+
+
+
+13.yakhni.html
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yakhni Pulao Recipe</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            background-color: #f9f9f9;
+            color: #333;
+            line-height: 1.6;
+        }
+
+        h1 {
+            text-align: center;
+            color: #4a4a4a;
+            text-transform: uppercase;
+            margin-bottom: 20px;
+            border-style:solid;
+        }
+
+        h2 {
+            color: #555;
+            margin-top: 20px;
+            border-style:dotted;
+        }
+
+        p {
+            text-align: justify;
+        }
+
+        ul, ol {
+            margin: 10px 0 20px 20px;
+        }
+
+        a {
+            color: #007BFF;
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        .video-link {
+            text-align: center;
+            margin-top: 30px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Yakhni Pulao Recipe</h1>
+
+    <h2>History</h2>
+    <p>
+Yakhni Pulao is a fragrant rice dish rooted in the culinary traditions of Central and South Asia. Its origins trace back to the Mughal era, where it was developed as a sophisticated yet hearty meal for royalty. The word "Yakhni" refers to a flavorful broth made by simmering meat with aromatic spices, which forms the foundation of the dish. Influenced by Persian and Central Asian cuisines, Yakhni Pulao traveled to different regions, evolving into a beloved dish in Indian, Pakistani, and Afghan kitchens.</p>
+
+    <h2>Ingredients</h2>
+    <ul>
+       <h2> For the Yakhni (Broth):</h2>
+
+<li>500g meat (chicken, mutton, or beef)</li>
+<li>1 onion (sliced)</li>
+<li>4-5 garlic cloves</li>
+<li>1-inch ginger piece (sliced)</li>
+<li>4-5 whole black peppercorns</li>
+<li>2-3 cloves</li>
+<li>1-2 bay leaves</li>
+<li>2-3 green cardamoms</li>
+<li>1 black cardamom</li>
+<li>1 cinnamon stick</li>
+<li>1 tsp fennel seeds</li>
+<li>1 tsp cumin seeds</li>
+<li>1 tsp coriander seeds</li>
+<li>6 cups water</li>
+<li>Salt to taste</li>
+<h2>For the Pulao:</h2>
+
+<li>2 cups basmati rice (soaked for 30 minutes)</li>
+<li>3 tbsp ghee or oil</li>
+<li>1 onion (finely sliced)</li>
+<li>2-3 green chilies (slit)</li>
+<li>1 tsp cumin seeds</li>
+<li>2-3 cloves</li>
+<li>2 green cardamoms</li>
+<li>1 cinnamon stick</li>
+<li>1 tsp garam masala</li>
+<li>2-3 tbsp yogurt (optional)</li>
+<li>Salt to taste</li>
+<li>Fresh coriander and mint leaves for garnish</li>
+    </ul>
+
+    <h2>Procedure</h2>
+    <ol>
+       <h2> Step 1: Preparing the Yakhni (Broth):</h2>
+
+<li>Place the meat in a large pot and add the water, onions, garlic, ginger, and all the whole spices.</li>
+<li>Simmer on low heat for about 45 minutes (or until the meat is tender).</li>
+<li>Strain the broth into a bowl, separating the meat and discarding the spices and residue. Keep the meat aside.</li>
+<h2>Step 2: Cooking the Pulao:</h2>
+
+<li>Heat ghee or oil in a heavy-bottomed pot. Add cumin seeds, cloves, cardamoms, and cinnamon stick. Sauté for 30 seconds until fragrant.</li>
+<li>Add the sliced onions and cook until golden brown.</li>
+<li>Stir in the yogurt (if using) and green chilies. Cook for 1-2 minutes.</li>
+<li>Add the cooked meat pieces and sauté for a few minutes to coat them with the spices.</li>
+<li>Add the strained Yakhni (broth) to the pot. For 2 cups of rice, you’ll need about 4 cups of liquid. Adjust salt as needed.</li>
+<li>Once the broth starts boiling, gently add the soaked and drained basmati rice.</li>
+<li>Cover the pot and cook on low heat for 15-20 minutes, or until the rice is fully cooked and fluffy.</li>
+<li>Let it rest for 5 minutes, then fluff the rice with a fork.</li>
+<h2>Step 3: Garnishing and Serving:</h2>
+
+<li>Garnish with fresh coriander and mint leaves before serving.</li>
+<li>Yakhni Pulao is best enjoyed with a side of raita, salad, or pickles.</li>
+<h1>Notes</h1>
+<li>You can enhance the flavor by adding fried nuts or raisins during garnishing.</li>
+<li>For an extra layer of aroma, sprinkle a few drops of rose water or kewra essence before serving.</li>
+<h2>Enjoy this royal and aromatic dish! 😊</h2.
+</ol>
+<h2>Making Video</h2>
+        <p><a href="https://youtu.be/8HCuUY-b-dY" target="_blank">Watch the Making of Yakhni Pulao</a></p>
+</body>
+</html>
+
+
+
+14.shahi.html
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shahi tukda Recipe</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            background-color: #f9f9f9;
+            color: #333;
+            line-height: 1.6;
+        }
+
+        h1 {
+            text-align: center;
+            color: #4a4a4a;
+            text-transform: uppercase;
+            margin-bottom: 20px;
+            border-style:solid;
+        }
+
+        h2 {
+            color: #555;
+            margin-top: 20px;
+            border-style:dotted;
+        }
+
+        p {
+            text-align: justify;
+        }
+
+        ul, ol {
+            margin: 10px 0 20px 20px;
+        }
+
+        a {
+            color: #007BFF;
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        .video-link {
+            text-align: center;
+            margin-top: 30px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Shahi tukda Recipe</h1>
+
+    <h2>History</h2>
+    <p>Shahi Tukda, meaning "Royal Piece," is a rich Mughlai dessert that traces its origins to the royal kitchens of the Mughal Empire in India. This delicacy was considered a luxurious treat, combining fried bread with aromatic saffron milk and garnished with nuts. It reflects the culinary sophistication of the Mughal era, emphasizing indulgent flavors, textures, and the use of lavish ingredients like ghee, dry fruits, and silver or gold leaf for presentation.
+
+Some food historians believe it may have been inspired by Middle Eastern desserts like Umm Ali or the Turkish Bread Pudding, adapted with local ingredients like ghee and cardamom. Today, it is a staple dessert during Ramadan and festive occasions in South Asia.
+
+</p>
+
+    <h2>Ingredients</h2>
+    <ul>
+        <h2>For the Bread Base:</h2>
+<li>Bread slices: 4-6 (preferably white bread)</li>
+<li>Ghee: 4-5 tbsp (for frying)</li>
+<h2>For the Rabri (Sweetened Condensed Milk):</h2>
+<li>Full-fat milk: 1 liter</li>
+<li>Sugar: 4-5 tbsp (adjust to taste)</li>
+<li>Cardamom powder: 1/4 tsp</li>
+<li>Saffron strands: 8-10 (soaked in 2 tbsp warm milk)</li>
+<li>Rose water or kewra water: 1/2 tsp</li>
+<h2>For the Sugar Syrup:</h2>
+<li>Sugar: 1/2 cup</li>
+<li>Water: 1/4 cup</li>
+<li>Cardamom pods: 2-3</li>
+<li>Lemon juice: 1/2 tsp (to prevent crystallization)</li>
+<h2>For Garnish:</h2>
+<li>Chopped nuts: Almonds, pistachios, and cashews (2-3 tbsp)</li>
+<li>Silver leaf (optional): 1 sheet</li>
+<li>Dried rose petals (optional): A few</li>
+
+    </ul>
+
+    <h2>Procedure</h2>
+    <ol>
+        <h2>Step 1: Prepare the Rabri<h2>
+<li>In a wide, heavy-bottomed pan, boil the milk over medium heat.</li>
+<li>Once it comes to a boil, reduce the heat and simmer, stirring occasionally to prevent burning.</li>
+<li>Scrape the sides to collect the cream and mix it into the milk.</li>
+<li>When the milk reduces to half its original volume, add sugar, cardamom powder, and saffron milk.</li>
+<li>Cook for another 10-15 minutes until the milk thickens to a creamy consistency.</li>
+<li>Add rose or kewra water, mix well, and set aside to cool.</li>
+<h2>Step 2: Prepare the Bread</h2>
+<li>Cut the bread slices into triangles or squares, removing the crusts.</li>
+<li>Heat ghee in a frying pan and fry the bread pieces until golden brown and crisp.</li>
+<li>Place the fried bread on a paper towel to drain excess ghee.</li>
+<h2>Step 3: Make the Sugar Syrup</h2>
+<li>Combine sugar, water, and cardamom pods in a pan.</li>
+<li>Heat until the sugar dissolves completely, and boil for 2-3 minutes to form a slightly sticky syrup.</li>
+<li>Add lemon juice to stabilize the syrup and set it aside.</li>
+<h2>Step 4: Assemble the Shahi Tukda</h2>
+<li>Dip each fried bread piece into the warm sugar syrup for a few seconds, ensuring it's coated but not soggy.</li>
+<li>Arrange the sugar-coated bread pieces on a serving plate.</li>
+<li>Pour the prepared rabri generously over the bread.</li>
+<h2>Step 5: Garnish and Serve</h2>
+<li>Garnish with chopped nuts, a drizzle of saffron milk, and dried rose petals.</li>
+<li>If desired, place a sheet of edible silver leaf on top for an authentic royal touch.</li>
+<li>Chill for 1-2 hours or serve warm as preferred.</li>
+<h2>Enjoy this decadent dessert fit for royalty! 🥰</h2>
+</ol>
+<h2>Making Video</h2>
+<p><a href="https://youtu.be/nxYribBFEkM" target="_blank">Watch the Making of Shahi Tukda</a></p>
+</body>
+</html>
+
+
+
+15.biryani.html
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Biryani Recipe</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            background-color: #f9f9f9;
+            color: #333;
+            line-height: 1.6;
+        }
+
+        h1 {
+            text-align: center;
+            color: #4a4a4a;
+            text-transform: uppercase;
+            margin-bottom: 20px;
+            border-style:solid;
+        }
+
+        h2 {
+            color: #555;
+            margin-top: 20px;
+            border-style:dotted;
+        }
+
+        p {
+            text-align: justify;
+        }
+
+        ul, ol {
+            margin: 10px 0 20px 20px;
+        }
+
+        a {
+            color: #007BFF;
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        .video-link {
+            text-align: center;
+            margin-top: 30px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Biryani Recipe</h1>
+
+    <h2>History</h2>
+    <p>Biryani is a fragrant and flavorful rice dish with a rich history, believed to have originated in Persia and brought to the Indian subcontinent by the Mughals. The word "biryani" is derived from the Persian words "birinj" (rice) and "biryan" (fried or roasted). Over time, regional variations of biryani emerged, incorporating local spices, cooking techniques, and ingredients. Today, biryani is a beloved dish across South Asia, with famous styles such as Hyderabadi, Lucknowi (Awadhi), Kolkata, and Malabar biryanis.
+
+</p>
+
+    <h2>Ingredients</h2>
+    <ul>
+       <h2> For the Meat or Vegetables:</h2>
+<li>1 kg chicken, mutton, or vegetables (like potatoes, carrots, and beans)</li>
+<li>1 cup yogurt</li>
+<li>2 tbsp ginger-garlic paste</li>
+<li>1 tsp turmeric powder</li>
+<li>2 tsp red chili powder</li>
+<li>2 tsp biryani masala (or garam masala)</li>
+<li>1/2 tsp nutmeg and mace powder</li>
+<li>Salt to taste</li>
+<h2>For the Rice:</h2>
+<li>2 cups basmati rice (soaked for 30 minutes)</li>
+<li>4 cups water</li>
+<li>1 bay leaf</li>
+<li>2-3 green cardamoms</li>
+<li>1 cinnamon stick</li>
+<li>4-5 cloves</li>
+<li>1 tsp salt</li>
+<h2>For the Layering:</h2>
+<li>2 large onions, thinly sliced and fried (birista)</li>
+<li>A pinch of saffron soaked in 2 tbsp warm milk (or yellow food color)</li>
+<li>1/4 cup fresh coriander leaves, chopped</li>
+<li>1/4 cup fresh mint leaves, chopped</li>
+<li>3-4 green chilies, slit</li>
+<li>2 tbsp ghee</li>
+
+    </ul>
+
+    <h2>Procedure</h2>
+    <ol>
+        <h2>Step 1: Marinate the Meat/Vegetables</h2>
+<li>In a bowl, mix yogurt, ginger-garlic paste, turmeric, red chili powder, biryani masala, nutmeg-mace powder, and salt.</li>
+<li>Add the meat or vegetables and coat well. Marinate for at least 1 hour (or overnight for best results).</li>
+<h2>Step 2: Prepare the Rice</h2>
+<li>Boil water with bay leaf, cardamoms, cinnamon, cloves, and salt.</li>
+<li>Add the soaked rice and cook until 70% done (grains should still be firm). Drain and set aside.</li>
+<h2>Step 3: Cook the Meat/Vegetables<h2>
+<li>Heat ghee in a heavy-bottomed pot or handi.</li>
+<li>Add the marinated meat/vegetables and cook on medium heat until tender and the oil separates. Adjust seasoning if needed.</li>
+<h2>Step 4: Assemble the Biryani</h2>
+<li>In the same pot, spread half the cooked meat/vegetables at the bottom</li>
+<li>Layer half the rice on top. Sprinkle fried onions, mint, coriander, green chilies, and saffron milk.</li>
+<li>Repeat with the remaining meat/vegetables and rice, finishing with garnishes on top.</li>
+<h2>Step 5: Dum (Steam Cooking)</h2>
+<li>Seal the pot with a tight lid or dough to trap the steam.</li>
+<li>Place the pot on low heat for 20-30 minutes. You can also place it on a tawa (flat griddle) to distribute heat evenly.</li>
+<h2>Step 6: Serve</h2>
+<li>Gently mix the layers before serving, ensuring the rice and meat/vegetables remain intact.</li>
+<li>Serve hot with raita, salad, or pickles.</li>
+<h2>Enjoy the aromatic and rich flavors of biryani, a dish that captures the essence of South Asian cuisine!</h2>
+</ol>
+<h2>Making Video</h2>
+<p><a href="https://youtu.be/SWj-4StffkI" target="_blank">Watch the Making of Biryani</a></p>
+</body>
+</html>
+
+
+16.soup.html
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mulligatawny soup Recipe</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            background-color: #f9f9f9;
+            color: #333;
+            line-height: 1.6;
+        }
+
+        h1 {
+            text-align: center;
+            color: #4a4a4a;
+            text-transform: uppercase;
+            margin-bottom: 20px;
+            border-style:solid;
+        }
+
+        h2 {
+            color: #555;
+            margin-top: 20px;
+            border-style:dotted;
+        }
+
+        p {
+            text-align: justify;
+        }
+
+        ul, ol {
+            margin: 10px 0 20px 20px;
+        }
+
+        a {
+            color: #007BFF;
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        .video-link {
+            text-align: center;
+            margin-top: 30px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Mulligatawny soup Recipe</h1>
+
+    <h2>History</h2>
+    <p>Mulligatawny soup has its origins in South India, where it began as a spiced lentil-based dish known as "molo tunny," which means "pepper water" in Tamil. This dish was adapted by the British during the colonial period to suit European palates, incorporating meat, vegetables, and creamy elements. Over time, it evolved into a fusion dish, blending Indian spices with European culinary techniques.
+
+</p>
+
+    <h2>Ingredients</h2>
+    <ul>
+<h2>For 4 servings:</h2>
+
+<h3>Vegetables and Base:</h3>
+
+<li>2 tablespoons vegetable oil or ghee</li>
+<li>1 onion, finely chopped</li>
+<li>2 carrots, diced</li>
+<li>1 celery stalk, diced</li>
+<li>2 garlic cloves, minced</li>
+<li>1-inch piece of ginger, grated</li>
+<h3>Spices:</h3>
+
+<li>1 teaspoon turmeric</li>
+<li>1 teaspoon ground cumin</li>
+<li>1 teaspoon ground coriander</li>
+<li>1/2 teaspoon ground cinnamon</li>
+<li>1/4 teaspoon cayenne pepper (optional, for heat)</li>
+<h3>Other Ingredients:</h3>
+
+<li>1/2 cup red lentils (or yellow split peas)</li>
+<li>1 apple, peeled and diced (adds a sweet-tangy flavor)</li>
+<li>4 cups chicken or vegetable stock</li>
+<li>1 cup cooked chicken (optional, for non-vegetarian versions)</li>
+<li>1/2 cup coconut milk or heavy cream</li>
+<li>Juice of half a lemon</li>
+<li>Salt and pepper to taste</li>
+<h2>Garnish:</h2>
+
+<li>Fresh cilantro leaves, chopped</li>
+<li>A dollop of yogurt or sour cream (optional)</li>
+
+    </ul>
+
+    <h2>Procedure</h2>
+    <ol>
+<h2>repare the Base:</h2>
+<li>Heat the oil or ghee in a large pot over medium heat. Add the onion, carrots, and celery, and sauté until softened (about 5–7 minutes). 
+<li>Add the garlic and ginger, and cook for another minute until fragrant.</li>
+
+<h2>Add Spices:</h2>
+<li>Stir in the turmeric, cumin, coriander, cinnamon, and cayenne pepper. Cook for 1–2 minutes to toast the spices and enhance their flavor.</li>
+
+<h2>Incorporate Lentils and Apple:</h2>
+<li>Add the lentils and diced apple to the pot. Stir well to coat them with the spices.</li>
+
+<h2>Simmer the Soup:</h2>
+<li>Pour in the stock and bring to a boil. Reduce the heat to low, cover, and simmer for about 20–25 minutes, or until the lentils are tender.</li>
+
+<h2>Blend (Optional):</h2>
+<li>Use an immersion blender to partially blend the soup for a thicker consistency. If you prefer a chunkier texture, skip this step.</li>
+
+<h2>Add Protein and Creaminess:</h2>
+<li>Stir in the cooked chicken (if using), coconut milk or cream, and lemon juice. Simmer for another 5 minutes to heat through.</li>
+
+<h2>Season and Serve:</h2>
+<li>Adjust the seasoning with salt and pepper. Ladle the soup into bowls, garnish with cilantro and a dollop of yogurt or sour cream, and serve hot.</li>
+</ol>
+<h2>Making Video</h2>
+<p><a href="https://youtu.be/VmMIg2Y_Lng" target="_blank">Watch the Making of Mulligatawny Soup</a></p>
+</body>
+</html>
+
+
+
+17.rail.html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Railway Mutton Curry Recipe</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            background-color: #f9f9f9;
+            color: #333;
+            line-height: 1.6;
+        }
+
+        h1 {
+            text-align: center;
+            color: #4a4a4a;
+            text-transform: uppercase;
+            margin-bottom: 20px;
+            border-style:solid;
+        }
+
+        h2 {
+            color: #555;
+            margin-top: 20px;
+            border-style:dotted;
+        }
+
+        p {
+            text-align: justify;
+        }
+
+        ul, ol {
+            margin: 10px 0 20px 20px;
+        }
+
+        a {
+            color: #007BFF;
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        .video-link {
+            text-align: center;
+            margin-top: 30px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Railway Mutton Curry Recipe</h1>
+
+    <h2>History</h2>
+    <p>Railway Mutton Curry is a flavorful and hearty dish that originated during the British colonial era in India, specifically created for the Indian Railways. This curry became popular among travelers, particularly on long train journeys, because it was a nutritious and filling meal that could withstand long hours of travel while still retaining its taste. Over time, it has evolved into a beloved dish in Indian cuisine, particularly in the northern and western regions, and is known for its rich, aromatic flavors.
+The dish has its roots in the era of the British Raj, when the Indian Railways were introduced to ensure better connectivity across the country. The British would prepare special meals for the passengers, and the Railway Mutton Curry was one of the dishes served in the trains. The curry was often made using mutton, which was widely available in the country, and cooked in a rich gravy with a combination of spices. It was designed to be a flavorful, substantial meal that could be easily transported and served in a train kitchen.
+
+Railway Mutton Curry became a part of the "railway cuisine" that developed around the travel needs of the time. The dish evolved over the years, incorporating regional variations, and is now enjoyed in households, restaurants, and even train journeys across India
+</p>
+
+    <h2>Ingredients</h2>
+    <ul>
+<li>Mutton (bone-in or boneless, cut into pieces): 500g</li>
+<li>Onions: 2 large, finely chopped</li>
+<li>Tomatoes: 2 large, chopped</li>
+<li>Ginger-garlic paste: 2 tbsp</li>
+<li>Green chilies: 2-3, slit</li>
+<li>Yogurt: 2-3 tbsp</li>
+<li>Cooking oil: 2-3 tbsp</li>
+<li>Bay leaf: 1</li>
+<li>Cinnamon stick: 1-inch piece</li>
+<li>Cloves: 4-5</li>
+<li>Cardamom pods: 2</li>
+<li>Cumin seeds: 1 tsp</li>
+<li>Coriander powder: 1 tbsp</li>
+<li>Cumin powder: 1 tsp</li>
+<li>Red chili powder: 1-2 tsp</li>
+<li>Garam masala: 1 tsp</li>
+<li>Turmeric powder: ½ tsp</li>
+<li>Salt: To taste</li>
+<li>Water or stock: 2 cups (for gravy consistency)</li>
+<li>Fresh coriander leaves: For garnishing</li>
+<li>Lemon juice: 1 tsp (optional, for a tangy kick)</li>
+    </ul>
+
+
+    <h2>Procedure</h2>
+    <ol>
+        <h2>Marinate the Mutton:</h2>
+
+<li>In a bowl, combine the mutton pieces with yogurt, salt, and turmeric powder.</li> 
+<li>Let it marinate for at least 30 minutes (or longer for more flavor).</li>
+<h2>Prepare the Spices:</h2>
+
+<li>Heat oil in a pressure cooker or large pot. Add the bay leaf, cinnamon stick, cloves, cardamom, and cumin seeds.</li>
+<li>Sauté for a minute until they release their aroma.</li>
+<h2>Cook the Onions and Tomatoes:</h2>
+
+<li>Add the finely chopped onions to the pot and sauté them until golden brown. This will create a rich base for the curry.</li>
+<li>Add the ginger-garlic paste and green chilies, and sauté for another 2-3 minutes until the raw smell disappears.</li>
+<li>Stir in the chopped tomatoes and cook until they soften and blend into the masala.</li>
+<h2>Add the Ground Spices:</h2>
+
+<li>Add the coriander powder, cumin powder, red chili powder, and garam masala to the pot. </li>
+<li>Stir well to coat the onions and tomatoes with the spices, and cook until the oil starts to separate from the masala.</li>
+<h2>Cook the Mutton:</h2>
+
+<li>Add the marinated mutton pieces to the pot and sear them until browned on all sides. This helps to lock in the flavors.</li>
+<h2>Add Water or Stock:</h2>
+
+<li>Pour in water or mutton stock to the pot, enough to cover the mutton pieces. Stir well, and bring it to a boil. </li>
+<li>If using a pressure cooker, cover it and cook for 4-5 whistles or until the mutton is tender. </li>
+<li>If using a regular pot, cover and simmer for about 45 minutes to 1 hour, or until the mutton is cooked through and the gravy thickens.</li>
+<h2>Garnish:</h2>
+
+<li>Once the mutton is tender and the curry has reached the desired consistency, taste and adjust the seasoning if necessary. You can add a squeeze of lemon juice for a tangy flavor.</li>
+<li>Garnish with fresh coriander leaves.</li>
+<h2>Serve:</h2>
+
+<li>Railway Mutton Curry is traditionally served with naan, paratha, or steamed rice. It can also be paired with chapatis for a fulfilling meal.</li>
+</ol>
+<h2>Making Video</h2>
+<p><a href="https://youtu.be/Bcc7We2k_tE" target="_blank">Watch the Making of Railway Mutton Curry</a></p>
+</body>
+</html>
+
+
+
+18.tea.html
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Darjeeling Tea Recipe</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            background-color: #f9f9f9;
+            color: #333;
+            line-height: 1.6;
+        }
+
+        h1 {
+            text-align: center;
+            color: #4a4a4a;
+            text-transform: uppercase;
+            margin-bottom: 20px;
+             border-style:solid;
+        }
+
+        h2 {
+            color: #555;
+            margin-top: 20px;
+             border-style:dotted;
+        }
+
+        p {
+            text-align: justify;
+        }
+
+        ul, ol {
+            margin: 10px 0 20px 20px;
+        }
+
+        a {
+            color: #007BFF;
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        .video-link {
+            text-align: center;
+            margin-top: 30px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Darjeeling Tea Recipe</h1>
+
+    <h2>History</h2>
+    <p>Darjeeling Tea is one of the most famous and prized teas in the world, known for its distinct flavor, aroma, and high quality. Grown in the Darjeeling region of West Bengal, India, Darjeeling tea has earned the nickname "Champagne of teas" due to its delicate and complex flavors.
+The history of Darjeeling tea dates back to the 19th century. The British colonial government introduced tea cultivation to the Darjeeling region in the early 1800s. The region’s cool climate, rich soil, and high altitudes provided ideal conditions for growing high-quality tea. In 1835, the first tea seeds were brought from China, and the first tea plantation was established.
+
+Over time, Darjeeling tea became renowned globally, and its unique flavor profile was developed through a combination of environmental factors and cultivation techniques. The Darjeeling Tea industry flourished in the late 19th and early 20th centuries, with several estates, or tea gardens, being established in the region.
+
+In 2004, Darjeeling tea received Geographical Indication (GI) status, which protected the name and ensured that only tea grown in the Darjeeling region could be labeled as "Darjeeling Tea."
+</p>
+
+    <h2>Ingredients</h2>
+    <ul>
+        <li>Tea leaves: The leaves from the Camellia sinensis plant grown in the Darjeeling region.</li>
+<li>Water: Fresh, filtered water is essential for brewing.</li>
+
+    </ul>
+
+    <h2>Procedure</h2>
+    <ol>
+        <h2>Water Temperature:</h2>
+
+<li>For Black Darjeeling Tea, bring water to a near-boil, around 90-95°C (194-203°F).</li>
+<li>For Green Darjeeling Tea, use slightly cooler water at around 75-85°C (167-185°F) to preserve the delicate flavors.</li>
+<h2>Tea Leaves:</h2>
+
+<li>Use 1 teaspoon of loose leaf tea per cup (approximately 250 ml or 8 oz) of water.</li>
+<h2>Steeping:</h2>
+
+<li>Black Tea: Steep for about 3-5 minutes. The longer you steep, the stronger the flavor, but avoid over-steeping, as it can turn bitter.</li>
+<li>Green Tea: Steep for 2-3 minutes to retain the light, fresh flavor.</li>
+<li>White Tea: Steep for 4-5 minutes, as it is more delicate and should not be brewed too long.</li>
+<li>Oolong Tea: Steep for 3-4 minutes for a balance of flavor.</li>
+<h2>Straining:</h2>
+
+<li>Once the tea has steeped to your desired strength, strain the leaves and pour the tea into a cup.</li>
+<h2>Serving:</h2>
+
+<li>Darjeeling tea is traditionally served without milk or sugar, allowing the natural flavors to shine. However, some prefer adding a touch of lemon or honey, especially with green or white varieties.</li>
+<li.It can also be enjoyed with a light snack, such as cookies or biscuits, in a traditional afternoon tea setting.</li>
+
+    </ol>
+
+    
+        <h2>Making Video</h2>
+        <p><a href="https://youtu.be/kzCtp6L1y8Y" target="_blank">Watch the Making of Darjeeling Tea</a></p>
+    </body>
+</html>
+19.pork.html
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pork Sorpotel Recipe</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            background-color: #f9f9f9;
+            color: #333;
+            line-height: 1.6;
+        }
+
+        h1 {
+            text-align: center;
+            color: #4a4a4a;
+            text-transform: uppercase;
+            margin-bottom: 20px;
+            border-style:solid;
+        }
+
+        h2 {
+            color: #555;
+            margin-top: 20px;
+             border-style:dotted;
+        }
+
+        p {
+            text-align: justify;
+        }
+
+        ul, ol {
+            margin: 10px 0 20px 20px;
+        }
+
+        a {
+            color: #007BFF;
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        .video-link {
+            text-align: center;
+            margin-top: 30px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Pork Sorpotel Recipe</h1>
+
+    <h2>History</h2>
+    <p>Pork Sorpotel is a traditional Goan dish, known for its rich, spicy, and tangy flavors. It’s a popular dish in Portuguese-influenced Indian cuisine, especially in Goa, and is often served during special occasions and festive celebrations. The dish is made with pork, marinated in a special blend of spices, and simmered with vinegar, making it tender and flavorful.
+The dish has its roots in Portuguese colonial influence on India, particularly Goa, where Portuguese missionaries and settlers introduced many European culinary traditions. The word "sorpotel" itself is derived from the Portuguese word "sarapatel," which refers to a similar dish made with offal and meat. Over time, Goan cooks adapted this dish to local tastes, substituting pork for offal and adding more indigenous spices. Sorpotel became a staple in Goan Catholic households and is often served with "sannas" (a type of fluffy steamed bread).
+</p>
+
+    <h2>Ingredients</h2>
+    <ul>
+<li>Pork (boneless, cut into cubes): 500g (you can use pork belly, shoulder, or a combination)</li>
+<li>Pork liver (optional): 100g (for an authentic version, but can be omitted)</li>
+<li>Onions: 2 medium-sized, finely chopped</li>
+<li>Tomatoes: 2, chopped</li>
+<li>Garlic cloves: 6-8, minced</li>
+<li>Ginger: 1-inch piece, minced</li>
+<li>Green chilies: 2-3, slit</li>
+<li>Vinegar: 3-4 tbsp (preferably malt or coconut vinegar)</li>
+<li>Tamarind paste: 1 tbsp (optional, for additional tanginess)</li>
+<li>Cinnamon stick: 1</li>
+<li>Cloves: 4-5</li>
+<li>Cardamom pods: 2</li>
+<li>Cumin seeds: 1 tsp</li>
+<li>Mustard seeds: 1 tsp</li>
+<li>Peppercorns: 1 tsp</li>
+<li>Turmeric powder: ½ tspv
+<li>Red chili powder: 1 tsp</li>
+<li>Garam masala: 1 tsp</li>
+<li>Sugar: 1 tsp (optional, to balance the tanginess)</li>
+<li>Salt: To taste</li>
+<li>Oil: 2 tbsp (for cooking)</li>
+
+    </ul>
+
+    <h2>Procedure</h2>
+    <ol>
+<h2>Prepare the Meat:</h2>
+
+<li>If using pork liver, cut it into small pieces and set aside. Clean the pork and cut it into small cubes. You can marinate the pork with a bit of vinegar, salt, and turmeric for 30 minutes for enhanced flavor.</li>
+<h2>Make the Spice Paste:</h2.
+
+<li>In a small pan, dry roast the cumin seeds, mustard seeds, cloves, cinnamon stick, cardamom, and peppercorns until aromatic. Let them cool and grind them into a fine powder along with the red chili powder, turmeric, and garam masala.</li>
+<h2>Cook the Pork:</h2>
+
+<li>Heat oil in a large pan and sauté the onions until golden brown. Add the garlic, ginger, and green chilies, and sauté for another minute.</li>
+<li>Add the tomatoes and cook until soft and pulpy. Then add the ground spice paste and cook until the oil begins to separate from the masala.</li>
+<h2>Add the Meat:</h2>
+
+<li>Add the pork cubes (and liver, if using) to the pan and cook on medium-high heat, stirring occasionally, until the meat starts to brown.</li>
+<h2>Simmer:</h2>
+
+<li>Add the vinegar, tamarind paste (if using), sugar, and salt. Pour enough water to cover the meat and bring it to a boil. Reduce the heat to low and simmer for 1-1.5 hours, or until the meat is tender and the sauce has thickened. Stir occasionally, and add more water if needed to keep the consistency as per your preference.</li>
+<h2>Final Adjustments:</h2.
+
+<li>Taste the sorpotel and adjust the seasoning, adding more vinegar, salt, or sugar as desired. It’s common to let the sorpotel sit overnight for the flavors to develop more intensely.</li>
+<h2>Serve:</h2>
+
+<li>Pork Sorpotel is traditionally served with "sannas" (Goan rice bread) or plain rice, but it can also be paired with other Indian flatbreads.</li>
+<h2>Enjoy this delicious and spicy Goan delicacy!</h2>
+</ol>
+        <h2>Making Video</h2>
+        <p><a href="https://youtu.be/N_OVj34U7cE" target="_blank">Watch the Making of Pork Sorpotel</a></p>
+    
+</body>
+</html>
+
+
+20.aviyal.html
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>aviyal Recipe</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            background-color: #f9f9f9;
+            color: #333;
+            line-height: 1.6;
+        }
+
+        h1 {
+            text-align: center;
+            color: #4a4a4a;
+            text-transform: uppercase;
+            margin-bottom: 20px;
+             border-style:solid;
+        }
+
+        h2 {
+            color: #555;
+            margin-top: 20px;
+             border-style:dotted;
+        }
+
+        p {
+            text-align: justify;
+        }
+
+        ul, ol {
+            margin: 10px 0 20px 20px;
+        }
+
+        a {
+            color: #007BFF;
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        .video-link {
+            text-align: center;
+            margin-top: 30px;
+        }
+    </style>
+</head>
+<body>
+    <h1>aviyal Recipe</h1>
+
+    <h2>History</h2>
+    <p>Aviyal has its origins in Kerala, and it is considered one of the oldest dishes in South India, dating back to ancient times. The dish is mentioned in the Mahabharata, an epic from Hindu mythology, where it is said that Aviyal was prepared for Lord Krishna. The word "Aviyal" means "mix" or "mixture," which refers to the combination of various vegetables in the dish.
+
+It is traditionally believed to have been prepared by the Tamil kings during festivals as part of a vegetarian feast. Over time, Aviyal became a staple dish in Kerala's sadya (a traditional multi-course meal), served during special occasions, and it spread to neighboring states like Tamil Nadu.
+
+</p>
+
+    <h2>Ingredients</h2>
+    <ul>
+        <li>Vegetables: Typically, a combination of drumstick (moringa), carrots, beans, raw banana, potatoes, pumpkin, and cucumber. The variety can vary based on availability.</li>
+<li>Coconut: Grated fresh coconut, which forms the base of the paste.</li.
+<li>Spices: Green chilies, turmeric powder, and cumin seeds.</li.
+<li>Curd (yogurt): Adds a tangy flavor to the dish.</li>
+<li>Curry leaves: To enhance the flavor.</li>
+<li>Coconut oil: Traditional oil used for seasoning.</li>
+<li>Salt: To taste.</li>
+
+    </ul>
+
+    <h2>Procedure</h2>
+    <ol>
+       <h2> Preparation of Vegetables:</h2>
+
+<li>Peel and cut the vegetables into medium-sized pieces. Make sure the vegetables are of similar size to ensure even cooking.</li>
+<h2>Grinding Coconut Paste:</h2>
+
+<li>In a blender, grind grated coconut, green chilies, cumin seeds, and turmeric powder into a smooth paste, adding a little water if necessary.</li>
+<h2>Cooking the Vegetables:</h2>
+
+<li>In a large pan or pot, add the hard vegetables first, like carrots and potatoes. Cook them in some water until they are slightly tender.</li>
+<li>Add the remaining vegetables, including raw banana, pumpkin, and beans. Add enough water to cook the vegetables, and a pinch of salt. </li>
+<li>Cook on a medium flame until all the vegetables are tender but still firm.</li>
+<h2>Adding Coconut Paste:</h2>
+
+<li>Once the vegetables are cooked, add the coconut paste to the pot and mix gently to combine. Allow it to cook for about 5-10 minutes on low heat.</li>
+<h2>Adding Yogurt and Seasoning:</h2>
+
+<li>Reduce the heat and add yogurt to the mixture. Stir well to prevent curdling. You can adjust the yogurt according to the level of tanginess you prefer.</li>
+<li>Add a few curry leaves and a drizzle of coconut oil. Let it simmer for a few minutes, ensuring all the flavors are well incorporated.</li>
+<h2>Finishing:</h2>
+
+<li>Taste and adjust salt or yogurt as needed. The dish should have a slightly creamy, thick consistency.</li>
+<h2>Serving:</h2>
+
+<li>Serve hot with steamed rice, as part of a sadya or a simple meal.</l1>
+
+    </ol>
+<h2>Making Video</h2>
+        <p><a href="https://youtu.be/A8qfewUDUOE" target="_blank">Watch the Making of aviyal</a></p>
+   
+</body>
+</html>
+
+
+
+21.patra.html
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>patrani machhi Recipe</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            background-color: #f9f9f9;
+            color: #333;
+            line-height: 1.6;
+        }
+
+        h1 {
+            text-align: center;
+            color: #4a4a4a;
+            text-transform: uppercase;
+            margin-bottom: 20px;
+ border-style:solid;
+        }
+
+        h2 {
+            color: #555;
+            margin-top: 20px;
+ border-style:dotted;
+        }
+
+        p {
+            text-align: justify;
+        }
+
+        ul, ol {
+            margin: 10px 0 20px 20px;
+        }
+
+        a {
+            color: #007BFF;
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        .video-link {
+            text-align: center;
+            margin-top: 30px;
+        }
+    </style>
+</head>
+<body>
+    <h1>patrani machhi Recipe</h1>
+
+    <h2>History</h2>
+    <p>Patrani Macchi is a classic Parsi dish made from fish, usually steamed and marinated in a fragrant blend of spices, wrapped in banana leaves, and then cooked to perfection. The name Patrani Macchi literally translates to "fish in leaves," referring to the method of cooking, where the fish is wrapped in banana leaves to retain moisture and infuse the flavors of the marinade.Patrani Macchi has its roots in Parsi cuisine, a unique blend of Persian and Indian flavors. The Parsis, who migrated to India from Persia (modern-day Iran) centuries ago, brought with them various culinary traditions that evolved and adapted to local ingredients and tastes. Patrani Macchi is one of the most iconic and beloved dishes in Parsi homes, particularly during festive occasions and celebrations.
+
+The use of banana leaves for steaming fish is a traditional cooking technique found across different cultures in Asia and the Indian subcontinent, and in Parsi cuisine, it imparts a distinct aroma and flavor to the dish. Patrani Macchi has become an essential part of Parsi weddings, festivals, and special gatherings.
+
+</p>
+
+    <h2>Ingredients</h2>
+    <ul>
+<h2>For the Fish Marinade:</h2>
+<li>4-5 medium-sized fish fillets (pomfret, kingfish, or any firm white fish is preferred)</li>
+<li>1/2 cup fresh cilantro (coriander) leaves, finely chopped</li>
+<li>1/2 cup fresh mint leaves, finely chopped</li>
+<li>2-3 green chilies, chopped (adjust to taste)</li>
+<li>1 tablespoon ginger-garlic paste</li>
+<li>1 teaspoon coriander powder</li>
+<li>1 teaspoon cumin powder</li>
+<li>1/2 teaspoon turmeric powder</li>
+<li>1/2 teaspoon red chili powder</li>
+<li>1 tablespoon lime juice</li>
+<li>1 tablespoon tamarind pulp or vinegar</li>
+<li>Salt to taste</li>
+<li>1 tablespoon sugar (optional, balances acidity)</li>
+<li>2 tablespoons fresh grated coconut (optional)</li>
+<li>1 tablespoon vegetable oil or ghee</li>
+<h2>For Wrapping:</h2>
+<li>Banana leaves (enough to wrap the fish fillets)</li>
+<li>Ghee or oil for greasing the banana leaves</li>
+
+        
+    </ul>
+
+    <h2>Procedure</h2>
+    <ol>
+        <h2>Step 1: Prepare the Fish</h2>
+<li>Clean and wash the fish fillets thoroughly. Pat them dry with a paper towel.</li>
+<li>Make a few shallow cuts on both sides of the fish fillets to help the marinade penetrate better.</li>
+<h2>Step 2: Make the Marinade</h2>
+<li>In a bowl, combine the chopped cilantro, mint, green chilies, ginger-garlic paste, coriander powder, cumin powder, turmeric powder, red chili powder, lime juice, tamarind pulp or vinegar, salt, sugar (if using), and grated coconut (if using).</li>
+<li>Add the oil or ghee to the mixture and mix well until you get a smooth paste.</li>
+<li>Coat the fish fillets with the marinade thoroughly, making sure that the marinade is applied on both sides of the fish and inside the cuts.</li>
+<li>Let the fish marinate for at least 30 minutes, but preferably for 2-3 hours (or overnight in the refrigerator) for the flavors to develop.</li>
+<h2>Step 3: Prepare the Banana Leaves</h2>
+<li>Cut the banana leaves into squares or large enough pieces to wrap the fish fillets comfortably.</li>
+<li>If the banana leaves are stiff, you can gently heat them over an open flame or dip them in hot water for a few seconds to make them more pliable and easier to fold.</li>
+<li>Lightly grease the banana leaves with some oil or ghee to prevent sticking and to enhance the flavor.</li>
+<h2>Step 4: Wrap the Fish</h2>
+<li>Place one marinated fish fillet in the center of a banana leaf piece.</li>
+<li>Fold the sides of the banana leaf over the fish, covering it completely. Secure the packet by folding the edges or tying it with a string or another piece of leaf.</li>
+<li>Repeat with the remaining fish fillets.</li>
+<h2>Step 5: Steam the Fish</h2>
+<li>Prepare a steamer by filling a pot with water and bringing it to a simmer. Alternatively, you can use a pressure cooker (without the weight) to steam the fish.</li>
+<li>Place the banana leaf-wrapped fish parcels in the steamer basket, ensuring that they do not touch the water directly.</li>
+<li>Cover the steamer and cook the fish for about 20-30 minutes, or until the fish is tender and cooked through. You can check by gently opening one parcel and ensuring the fish is opaque and flakes easily with a fork.</li>
+<h2>Step 6: Serve</h2>
+<li>Carefully remove the parcels from the steamer.</li.
+<li>Serve the Patrani Macchi hot, garnished with some extra fresh herbs or lime wedges if desired.</li>
+<h2>Patrani Macchi is best enjoyed with steamed rice or Indian flatbreads like naan or paratha.</h2>
+
+
+    </ol>
+
+   
+        <h2>Making Video</h2>
+        <p><a href="https://youtu.be/YOQI9ugfjnc" target="_blank">Watch the Making of patrani machhi</a></p>
+   
+</body>
+</html>
+22.poha.html
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>poha Recipe</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            background-color: #f9f9f9;
+            color: #333;
+            line-height: 1.6;
+        }
+
+        h1 {
+            text-align: center;
+            color: #4a4a4a;
+            text-transform: uppercase;
+            margin-bottom: 20px;
+ border-style:solid;
+        }
+
+        h2 {
+            color: #555;
+            margin-top: 20px;
+ border-style:dotted;
+        }
+
+        p {
+            text-align: justify;
+        }
+
+        ul, ol {
+            margin: 10px 0 20px 20px;
+        }
+
+        a {
+            color: #007BFF;
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        .video-link {
+            text-align: center;
+            margin-top: 30px;
+        }
+    </style>
+</head>
+<body>
+    <h1>poha Recipe</h1>
+
+    <h2>History</h2>
+    <p>Poha is a popular Indian breakfast dish made from flattened rice. It's light, quick to prepare, and can be made in a variety of ways with different regional variations. Known for its simplicity and versatility, Poha is enjoyed throughout India, especially in Maharashtra, Gujarat, Madhya Pradesh, and parts of Uttar Pradesh and Rajasthan.
+The history of Poha is deeply rooted in Indian food culture. Flattened rice, also known as beaten rice, has been used in India for centuries due to its ease of preparation, long shelf life, and portability. It's believed to have originated in ancient India and has been a staple in many Indian households. The dish itself has evolved over time, with different regions adding their unique flavors and ingredients.
+
+Poha is thought to have been particularly popularized in Maharashtra, where it is often consumed for breakfast or as a light meal. The dish was traditionally made with minimal ingredients and served with tea or curd, and it became a common breakfast option because it is both nutritious and quick to prepare.
+</p>
+
+    <h2>Ingredients</h2>
+    <ul>
+<li>1 1/2 cups poha (flattened rice)</li>
+<li>1 tablespoon oil or ghee</li>
+<li>1 teaspoon mustard seeds</li>
+<li>1/2 teaspoon cumin seeds</li>
+<li>1/4 teaspoon turmeric powder</li>
+<li>1-2 green chilies, chopped (adjust to taste)</li>
+<li>1 medium onion, finely chopped</li>
+<li>1/4 cup peas (optional)</li>
+<li>1/4 cup grated coconut (optional)</li>
+<li>1/4 cup peanuts (roasted, optional)</li>
+<li>1 tablespoon lemon juice (optional)</li>
+<li>Salt to taste</li>
+<li>Fresh coriander leaves, chopped (for garnish)</li>
+<li>1/4 teaspoon sugar (optional)</li>
+<li>1/2 teaspoon ginger, finely grated (optional)</li>
+
+    </ul>
+
+    <h2>Procedure</h2>
+    <ol>
+        <h2>Step 1: Prepare the Poha</h2>
+<li>Place the poha (flattened rice) in a sieve or large strainer. Rinse it gently under cold water for a few seconds to remove any dust or dirt. Be careful not to over-rinse, as it can become mushy.</li>
+<li>Once rinsed, set the poha aside to drain and fluff it lightly with a fork to separate the grains. If you prefer your poha slightly moist, sprinkle a few drops of water on it and cover it with a lid to steam for a couple of minutes.</li>
+<h2>Step 2: Cook the Poha</h2>
+<li>Heat the oil or ghee in a large pan or wok over medium heat.</li>
+<li>Add mustard seeds and cumin seeds to the pan. Let them crackle for a few seconds.</li>
+<li>Add the chopped green chilies, grated ginger (if using), and onions. Sauté for 2-3 minutes until the onions become soft and translucent.</li>
+<li>If you’re adding peas, peanuts, or any other vegetables, toss them in now and sauté for a couple of minutes.</li>
+<li>Add turmeric powder, salt, and sugar (if using), and mix well.</li>
+<li>Now, add the rinsed poha to the pan. Gently stir the poha to combine all the ingredients and ensure the spices are evenly distributed. Cook for 3-4 minutes on low heat, allowing the poha to warm through.</li>
+<li>If the poha seems too dry, you can sprinkle a little water over it to steam it lightly.</li>
+<h2>Step 3: Garnish and Serve</h2>
+<li>Once cooked, squeeze some fresh lemon juice over the poha (optional) and mix.</li>
+<li>Garnish with freshly chopped coriander leaves and, if you like, top with grated coconut and roasted peanuts.</li>
+<li>Serve the poha hot, either on its own or with a side of yogurt or chutney.</li>
+</ol>
+
+    
+        <h2>Making Video</h2>
+        <p><a href="https://youtu.be/UXaOuBoatUA" target="_blank">Watch the Making of poha</a></p>
+    </body>
+</html>
+23.poli.html
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>puran poli Recipe</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            background-color: #f9f9f9;
+            color: #333;
+            line-height: 1.6;
+        }
+
+        h1 {
+            text-align: center;
+            color: #4a4a4a;
+            text-transform: uppercase;
+            margin-bottom: 20px;
+            border-style:solid;
+        }
+
+        h2 {
+            color: #555;
+            margin-top: 20px;
+             border-style:dotted;
+        }
+
+        p {
+            text-align: justify;
+        }
+
+        ul, ol {
+            margin: 10px 0 20px 20px;
+        }
+
+        a {
+            color: #007BFF;
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        .video-link {
+            text-align: center;
+            margin-top: 30px;
+        }
+    </style>
+</head>
+<body>
+    <h1>puran poli Recipe</h1>
+
+    <h2>History</h2>
+    <p>
+
+Puran Poli is a traditional Indian flatbread stuffed with a sweet filling of chana dal (split chickpeas) and jaggery. It is especially popular in Maharashtra, Gujarat, and other parts of India, often prepared during festivals like Holi, Ganesh Chaturthi, and Makar Sankranti.
+
+Puran Poli has ancient roots, dating back to the time when food and rituals were closely intertwined in Indian culture. The dish is believed to have originated in Maharashtra and is a staple of Maharashtrian cuisine. Over time, it spread to other regions of India, adapting to local ingredients and tastes. It is known by different names in various regions, such as obattu in Karnataka and Andhra Pradesh, and patholi in some parts of Kerala. Puran Poli is often made during festivals as it is considered a celebratory and auspicious dish.
+
+
+    </p>
+
+    <h2>Ingredients</h2>
+    <ul>
+<h2>For the Filling (Puran):</h2>
+    <li>1 cup chana dal (split yellow gram)</li>
+    <li>3/4 cup jaggery (or to taste), grated</li>
+    <li>1/4 tsp cardamom powder</li>
+    <li>1/4 tsp nutmeg powder (optional)v
+    <li>1 tbsp ghee (clarified butter)</li>
+<h2>For the Dough:</h2>
+    <li>1 1/2 cups whole wheat flour</li>
+    <li>1/4 cup all-purpose flour (optional)</li>
+    <li>1/4 tsp turmeric powder (optional, for color)</li>
+    <li>1/2 tsp salt</li>
+    <li>Water (as needed to make dough)</li>
+    <li>Ghee or oil for rolling and cooking</li>
+
+        
+    </ul>
+
+    <h2>Procedure</h2>
+    <ol>
+       <h2>Step 1: Cook the Chana Dal</h2>
+<li>Wash the chana dal thoroughly and cook it in a pressure cooker with enough water until it is soft (about 3-4 whistles).</li>
+<li>Drain any excess water, but keep the dal moist.</li>
+<h2>Step 2: Prepare the Filling (Puran)</h2>
+<li>In a pan, heat 1 tbsp ghee.</li>
+<li>Add the cooked chana dal and jaggery to the pan and mix well.</li>
+<li>Cook this mixture on low heat, stirring continuously until the jaggery melts and combines with the dal.</li>
+<li>Add cardamom powder and nutmeg powder (if using) to the mixture. Keep stirring until the mixture thickens to a paste-like consistency and begins to leave the sides of the pan.</li>
+<li.Once the mixture is thick and smooth, remove from heat and allow it to cool.</li.
+<h2>Step 3: Prepare the Dough</h2>
+<li>In a large bowl, mix the whole wheat flour, all-purpose flour (if using), turmeric powder, and salt.</h2>
+<li>Gradually add water and knead into a smooth, soft dough. It should be soft but not sticky.</li>
+<li>Cover the dough with a damp cloth and let it rest for about 20-30 minutes.</li>
+<h2>Step 4: Make the Puran Poli</h2>
+<li>Divide the dough into equal-sized balls.</li>
+<li>Divide the puran (sweet filling) into portions the same size as the dough balls.</li>
+<li>Roll out the dough ball into a small disc (about 3-4 inches in diameter).</li>
+<li>Place the filling in the center of the dough disc and fold the edges over to seal the filling inside.</li>
+<li>Gently roll out the stuffed dough ball into a larger circle, being careful not to let the filling spill out.</li>
+<h2>Step 5: Cook the Puran Poli</h2>
+<li>Heat a tawa or griddle on medium heat.</li>
+<li>Place the rolled-out puran poli on the tawa and cook for about 1-2 minutes, or until small bubbles appear on the surface.</li.
+<li>Flip it and cook the other side. Then, apply ghee or oil on both sides and cook until golden brown and crisp.</li>
+<li>Repeat with the remaining dough and filling.</li>
+<h2>Step 6: Serve</h2>
+<li>Serve the puran poli hot, ideally with a dollop of ghee on top. It is often enjoyed with milk, yogurt, or a side of chutney.</li>
+
+<h2>Enjoy your delicious puran poli!</h2>
+</ol>
+
+  
+        <h2>Making Video</h2>
+        <p><a href="https://youtu.be/ntHrG3_0y2o" target="_blank">Watch the Making of Puran poli</a></p>
+  
+</body>
+</html>
+
+                                                                                                                                                                                           

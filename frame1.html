@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Historical Recipes</title>
+    <style>
+        .header {
+            background-color: MediumSeaGreen; /* A historical yellow color */
+            text-align: center;
+            padding: 20px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            position: relative;
+        }
+        .header h1 {
+            margin: 0 20px;
+            font-size: 2.5em;
+            color: #4a4a4a; /* Dark grey for contrast */
+            font-weight: bold;
+            text-transform: uppercase;
+        }
+        .header img {
+            height: 80px;
+            width: 80px;
+            position: absolute;
+            top: 50%;
+            transform: translateY(-50%);
+        }
+        .header img.left {
+            left: 20px;
+        }
+        .header img.right {
+            right: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <img src="left.jpg" alt="Left Image" class="left">
+        <h1>Historical Recipes</h1>
+        <img src="right.jpg" alt="Right Image" class="right">
+    </div>
+</body>
+</html>
